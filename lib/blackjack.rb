@@ -50,7 +50,7 @@ def hit?(card_total)
   if user_input == "h"
   initial_round
   end
-  if user_input != "h" || user_input != "s"
+  if user_input != "h" && user_input != "s"
     invalid_command
   end
   card_total
